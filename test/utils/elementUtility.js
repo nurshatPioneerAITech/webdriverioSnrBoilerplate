@@ -36,5 +36,6 @@ class elementUtility{
         await this.waitForAnElementToLoad(options)
         await options.click()
     }
+    
 }
 export default new elementUtility()
